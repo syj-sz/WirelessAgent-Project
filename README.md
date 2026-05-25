@@ -42,8 +42,7 @@
 
 ## 🏗️ 技术架构
 
----
-
+```
 ┌─────────────────────────────────────────────────────┐
 │                 前端 (React / Next.js)                │
 │         对话界面  ·  报告预览  ·  用户中心              │
@@ -65,7 +64,6 @@
 ├─────────────────────────────────────────────────────┤
 │      基础设施 (Claude/GPT/Gemini · GPU · O-RAN)      │
 └─────────────────────────────────────────────────────┘
-
 ```
 
 ### 技术选型
@@ -82,6 +80,8 @@
 
 ---
 
+
+---
 
 ## 📊 WCHW 评测基准
 
@@ -115,12 +115,14 @@ WirelessBench-WCHW 覆盖无线通信 6 大核心主题、449 道习题，采用
 
 ---
 
+
 ## 📄 参考文献
 
 1. Tong J, Guo W, Shao J, et al. **WirelessAgent: Large Language Model Agents for Intelligent Wireless Networks**. *China Communications*, Nov., 2025.
 2. Tong J, Li Z, Liu F, et al. **WirelessAgent++: Automated Agentic Workflow Design and Benchmarking for Wireless Networks**. *arXiv:2603.00501*, 2026.
 
 ---
+
 <p align="center">
   <sub>Made with ❤️ by WirelessAgent Working Group</sub>
 </p>
