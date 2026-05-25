@@ -80,39 +80,6 @@
 
 ---
 
-## 🚀 快速开始
-
-### Docker（推荐）
-
-```bash
-docker pull ghcr.io/jwentong/wirelessagent:latest
-docker run -p 9009:9009 ghcr.io/jwentong/wirelessagent:latest
-```
-
-### 本地运行
-
-```bash
-git clone https://github.com/jwentong/WirelessAgent.git
-cd WirelessAgent
-
-# 使用 uv
-uv sync
-uv run src/server.py
-
-# 或使用 pip
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python src/server.py
-```
-
-### 健康检查
-
-```bash
-curl http://localhost:9009/health
-```
-
----
 
 ## 📊 WCHW 评测基准
 
@@ -146,45 +113,12 @@ WirelessBench-WCHW 覆盖无线通信 6 大核心主题、449 道习题，采用
 
 ---
 
-## 👥 团队
-
-**WirelessAgent Working Group**
-
-| 角色 | 成员 |
-|------|------|
-| 项目负责人 | Prof. Jun Zhang |
-| 技术负责人 | Dr. Jingwen Tong |
-| 算法研发 | Dr. Wei Guo, Dr. Peiwen Jiang, Dr. Fang Liu |
-| 核心开发 | Zijian Li, Yufan Zhuang, Jiaming Chen, Sijia Li, Jiedan Tan, Ruibo Xue, Xue Chen, Erchao Zhu, Shiliang Lu, Lingkai Xu, Kangqi Li, Zeyang Xue, Yiqian Zhang, Yijie Song |
-
-**招募中**：技术开发 2–3 名 | 产品推广与市场 2 名
-
----
-
 ## 📄 参考文献
 
 1. Tong J, Guo W, Shao J, et al. **WirelessAgent: Large Language Model Agents for Intelligent Wireless Networks**. *China Communications*, Nov., 2025.
 2. Tong J, Li Z, Liu F, et al. **WirelessAgent++: Automated Agentic Workflow Design and Benchmarking for Wireless Networks**. *arXiv:2603.00501*, 2026.
 
 ---
-
-## 🤝 参与贡献
-
-欢迎对无线通信、AI 智能体应用、产品开发和创新创业感兴趣的同学加入！
-
-- 技术方向：前端/后端开发基础，LLM Agent 使用经验，AI 编程基础
-- 市场方向：用户调研、产品运营、市场推广
-
-请提交 Issue 或 Pull Request，或通过 [项目网站](https://scimaster.bohrium.com/) 联系我们。
-
----
-
-## 📝 许可证
-
-本项目基于 [MIT License](LICENSE) 开源。
-
----
-
 <p align="center">
   <sub>Made with ❤️ by WirelessAgent Working Group</sub>
 </p>
